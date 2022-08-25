@@ -8,14 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showAnimation = false
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+        VStack {
+            Spacer()
+            CirclesView(showAnimation: $showAnimation)
+                .frame(width: 200, height: 200)
+            Spacer()
+            Button {
+                withAnimation {
+                    showAnimation.toggle()
+                }
+            } label: {
+                Text(showAnimation ? "Hide figure" : "Show figure")
+                    .rotationEffect(showAnimation ? .degrees(360) : .degrees(0))
+                    .animation(.default, value: 10)
+            }
+
+        }
+        .padding()
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+  }
 }

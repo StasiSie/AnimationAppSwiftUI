@@ -11,6 +11,7 @@
 		FE6EDD6928B68D5E00A8FAF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6EDD6828B68D5E00A8FAF8 /* ContentView.swift */; };
 		FE6EDD6B28B68D6500A8FAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6EDD6A28B68D6500A8FAF8 /* Assets.xcassets */; };
 		FE6EDD6E28B68D6500A8FAF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6EDD6D28B68D6500A8FAF8 /* Preview Assets.xcassets */; };
+		FE6EDD7528B68DA400A8FAF8 /* CirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6EDD7428B68DA400A8FAF8 /* CirclesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FE6EDD6828B68D5E00A8FAF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FE6EDD6A28B68D6500A8FAF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE6EDD6D28B68D6500A8FAF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE6EDD7428B68DA400A8FAF8 /* CirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				FE6EDD6828B68D5E00A8FAF8 /* ContentView.swift */,
 				FE6EDD6A28B68D6500A8FAF8 /* Assets.xcassets */,
 				FE6EDD6C28B68D6500A8FAF8 /* Preview Content */,
+				FE6EDD7428B68DA400A8FAF8 /* CirclesView.swift */,
 			);
 			path = AnimationAppSwiftUI;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6EDD7528B68DA400A8FAF8 /* CirclesView.swift in Sources */,
 				FE6EDD6928B68D5E00A8FAF8 /* ContentView.swift in Sources */,
 				FE6EDD6728B68D5E00A8FAF8 /* AnimationAppSwiftUIApp.swift in Sources */,
 			);
